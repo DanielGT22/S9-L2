@@ -5,7 +5,7 @@ import Alerts from "./components/Welcome";
 import Intro from "./components/Intro";
 
 import CustomNavbar from "./components/CustomNavbar";
-import Home from "./components/Home";
+import Cards from "./components/Home";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <CustomNavbar additionalText="Read Around and Find Out" />
       <Alerts />
       <Intro />
-      <Home />
+      <Cards />
       <Footer />
     </div>
   );
